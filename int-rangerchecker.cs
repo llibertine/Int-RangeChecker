@@ -9,15 +9,15 @@ class MainClass {
 
     Console.WriteLine("-------------------------------------------------------");
     
-    Console.WriteLine("Gimme Int: ");
+    Console.WriteLine("Give me the first number: ");
 
     int first = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Gimme Int second: ");
+    Console.WriteLine("Give me the second number: ");
 
     int second = Convert.ToInt32(Console.ReadLine());
 
-    // Check if one of them is in range. If not, display that both arent in range
+    // Check if one of them is in range. If not, display that both are out of range.
     if ((first < 11 && first > -11) || (second < 11 && second > -11))
     {
       // Check if both numbers are in range
@@ -38,7 +38,7 @@ class MainClass {
     }
     else
     {
-      // None of them are in range
+      // None of the two numbers are in range.
       Console.WriteLine("Both numbers are not in range!");
     }
   }
